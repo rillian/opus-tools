@@ -1,0 +1,9 @@
+image: Visual Studio 2015
+configuration:
+- Debug
+- Release
+
+build:
+  project: win32\VS2015\opus-tools.sln
+  parallel: true
+  verbosity: minimal
