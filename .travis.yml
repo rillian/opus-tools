@@ -9,6 +9,7 @@ addons:
     packages:
       - libogg-dev
       - libopus-dev
+      - libflac-dev
 
 script:
   - ./autogen.sh
